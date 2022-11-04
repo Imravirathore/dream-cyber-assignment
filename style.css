@@ -1,0 +1,165 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #F5F5F5;
+}
+
+header
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+   
+}
+
+.navbar
+{
+    width: 100%;
+    height: 100px;
+  
+    position: absolute;
+    padding-left: 24px;
+    padding-top: 23px;
+    
+    box-shadow: 0px 2px 16px rgba(194, 194, 194, 0.46);
+}
+
+.logo
+{
+    /* border: 1px solid yellow; */
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.img_2
+{
+    padding: 0 16px;
+}
+
+.logo h1
+{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 26px;
+}
+
+/* Center Box */
+
+.box
+{
+    width: 491px;
+    height: 445px;
+   /* border: 1px solid red; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-40%);
+}
+
+.box h1
+{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+margin-bottom: 56px;
+}
+
+section label
+{
+
+display: block;
+font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+font-size: 18px;
+margin:24px 0 16px 0 
+
+}
+
+section input
+{
+    width: 490px;
+    height: 44px;
+    
+background: #FFFFFF;
+border: 1px solid #000000;
+}
+
+.remember
+{
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: flex-end;
+}
+
+.remember p
+{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #828282;
+margin-top: 27px;
+margin-right: 8px;
+
+}
+
+.rememberMe
+{
+width: 24px;
+height: 24px;
+}
+
+
+.signIn button
+{
+    padding: 16px 126px;
+    width: 491px;
+height: 51px;
+border-radius: 8px;
+background: rgba(44, 62, 80, 0.8);
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+border: none;
+margin-top:62px;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.signIn button:hover
+{
+    background-color: #2C3E50;
+    transition: all 0.2s ease-in;
+}
+
+input[type = "text"],input[type = "password"]
+{
+padding: 13px 16px;    
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+}
+
+#email-err, #pass-err
+{
+    color: red;
+    margin-top: 5px;
+    font-size: 12px;
+    font-family: 'Lato';
+    font-style: normal;
+    display: none;
+
+}
